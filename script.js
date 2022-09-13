@@ -200,11 +200,11 @@
 // npm install -g create-react-app
 // cd to location
 // npx create-react-app name
-// if didn't work try this :
-// npm install -g npm@latest
-// npm install node
-// npm install -g yarn
+// if didn't work try this : {
+    // npm install -g npm@latest
+    // npm install node
+    // npm install -g yarn
+// }
 // cd name
 // npm start
-
 
