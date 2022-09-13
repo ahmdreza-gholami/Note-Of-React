@@ -202,7 +202,7 @@
 // npx create-react-app name
 // if didn't work try this :
 // npm install -g npm@latest
-// nvm install node
+// npm install node
 // npm install -g yarn
 // cd name
 // npm start
