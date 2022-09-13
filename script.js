@@ -160,47 +160,35 @@
 
 // ------------------------------------------------------------------------
 
-// inheritance
-class Vehicle {
-    constructor(clr , brnd) {
-        this.color = clr,
-        this.model = brnd
-    }
+// // inheritance
+// class Vehicle {
+//     constructor(clr , brnd) {
+//         this.color = clr,
+//         this.model = brnd
+//     }
 
-    go() {
-        console.log("i go ")
-    }
-}
+//     go() {
+//         console.log("i go ")
+//     }
+// }
 
-class Car extends Vehicle {
-    constructor(clr , brnd , speed) {
-        super(clr , brnd);
-        this.speed = speed
-    }
+// class Car extends Vehicle {
+//     constructor(clr , brnd , speed) {
+//         super(clr , brnd);
+//         // super must coming in extends class
+//         this.speed = speed
+//     }
 
-    speed() {
-        console.log("Heh i can go fast")
-    }
-}
+//     speed() {
+//         console.log("Heh i can go fast")
+//     }
+// }
 
-const vehicle = new Vehicle("red" , "BMW");
-console.log(vehicle)
+// const vehicle = new Vehicle("red" , "BMW");
+// console.log(vehicle)
 
-const car = new Car("white" , "Land Cruiser" , 390);
-console.log(car)
-
-
-
-
-
-
-// ------------------------------------------------------------------------
-
-
-
-
-
-
+// const car = new Car("white" , "Land Cruiser" , 390);
+// console.log(car)
 
 // ------------------------------------------------------------------------
 // unit 3
